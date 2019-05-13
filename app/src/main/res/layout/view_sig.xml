@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <EditText
+      android:id="@+id/etId_sig"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="@android:color/darker_gray"
+      android:hint="输入包名或者文件路径,目录:sdcard-yyhd-apk,-分割"
+      android:textColor="@color/colorPrimary"
+      android:textColorHint="@color/colorPrimary"
+      />
+
+  <TextView
+      android:id="@+id/txtId_sig"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/holo_red_dark"
+      />
+
+  <Button
+      android:id="@+id/btnId_sig"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="获取签名"
+      />
+
+
+</LinearLayout>
